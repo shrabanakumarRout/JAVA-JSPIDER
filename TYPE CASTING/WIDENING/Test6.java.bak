@@ -1,0 +1,10 @@
+class Test6 
+{
+	public static void main(String[] args) 
+	{
+		long a = 10; //4bytes
+		float f = a; //8 bytes
+		
+		System.out.println(f + " " + a);
+	}
+}

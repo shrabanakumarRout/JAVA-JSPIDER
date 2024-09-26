@@ -1,0 +1,13 @@
+
+class ITEMS 
+{
+	
+	public static void g( ){
+    System.out.println("Available grocery in the shop");
+
+	System.out.println("1.Dal \n2.Rice\n3.Chips ");
+		
+		
+
+	}
+}

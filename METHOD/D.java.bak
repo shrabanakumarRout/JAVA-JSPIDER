@@ -1,0 +1,14 @@
+class D 
+{
+    public static void main (String [] args)
+	{
+		System.out.pritnln("main Starts");
+			
+		System.out.println("main ends");
+	}
+	static void m1()
+	{
+		System.out.println("m1 Execute()");
+		return;
+	}
+}
