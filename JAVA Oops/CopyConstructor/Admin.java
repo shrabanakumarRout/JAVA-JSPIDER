@@ -29,8 +29,8 @@ class Student
 	{
 		Student s1 = new Student("Simpul",22,7852913498L);
 		s1.Display();
-		Student s2 = new Student(s1);
-		s2.name = "Rintu";
+		Student s2 = new Student(s1); // Call contstructor change
+		s2.name = "Rintu"; //if we have to change the name in the s2 object
 		s2.Display();
 	}
 }
