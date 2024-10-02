@@ -1,0 +1,24 @@
+// BLocks(non static and static)
+class Test1 
+{
+	static int a;
+	int b;
+	static
+	{
+		a = 10;
+	}
+	{
+		a = 20;
+		b = 30;
+	}
+	public static void main(String[] args) 
+	{
+		System.out.println(a); // 10
+		Test1 t1 = new Test1(); // 20,30
+		System.out.println("1"+a); //10
+		System.out.println(t1.b); //20,30
+		{
+			System.out.println("main starts");
+		}
+	}
+}
