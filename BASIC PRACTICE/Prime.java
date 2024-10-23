@@ -1,9 +1,11 @@
+import java.util.Scanner;
 class Prime 
 {
 	public static void main(String[] args) 
 	{
-		int n = 1;
-		
+		scanner sc = new scanner(System.in);
+		System.out.println("Enter the First no);
+		int m = sc.nextInt();
 		if (n<=1)
 		{
 			System.out.println(n + " "  + "is not a prime number"+);
